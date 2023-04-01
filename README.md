@@ -13,3 +13,46 @@ Breve descripción del proyecto.
 
 1. Ejecute la aplicación: `npm run dev`
 2. Abra su navegador y vaya a `http://localhost:3000`
+
+
+
+## Endpoints
+---
+POST
+---
+
+`/api/register`
+
+Body
+
+`{ "email":"email", "password:"password" }`
+
+---
+POST
+---
+
+`/api/login`
+
+Body
+
+`{ "email":"email", "password:"password" }`
+
+---
+POST
+---
+
+`/api/play`
+
+Body
+
+`{"user_word":"GATOS"}`
+
+---
+GET
+---
+`/api/statistics/:userId`
+
+---
+GET
+---
+`/api/better-players`
