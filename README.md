@@ -4,10 +4,10 @@ Breve descripción del proyecto.
 
 ## Instalación
 
-1. Clone este repositorio: `git clone https://github.com/usuario/nombre-del-proyecto.git`
+1. Clone este repositorio: `git clone https://github.com/gabitovivar/wordle.git`
 2. Instale las dependencias: `npm install`
-3. Ejecute para levantar los contenedores de base de datos: `docker-compose up`
-4. Ejecute para crear las tablas y los registros: `node docker/database.js`
+3. Ejecute para levantar los contenedores de base de datos: `cd docker && docker-compose up -d`
+4. Ejecute para crear las tablas y los registros: `node database.js && cd ..`
 
 ## Uso
 
