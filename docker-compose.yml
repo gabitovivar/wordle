@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  pg:
+    container_name: pg
+    image: postgres
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: wordle
+    ports:
+      - '5432:5432'
+  # app:
+  #   build: .
+  #   depends_on:
+  #     - pg
+  #   ports:
+  #     - '3000:3000'
